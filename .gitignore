@@ -1,0 +1,16 @@
+# Node.js dependencies
+node_modules/
+
+# Hardhat / Remix artifacts
+artifacts/
+cache/
+build/
+
+# Private key / config
+.env
+
+# VSCode settings
+.vscode/
+
+# MacOS files
+.DS_Store
