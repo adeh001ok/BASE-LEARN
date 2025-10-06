@@ -1,0 +1,186 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "idx",
+						"type": "uint256"
+					}
+				],
+				"name": "deleteNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "idx",
+						"type": "uint256"
+					}
+				],
+				"name": "getNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "lengthNumbers",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "numbers",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "popNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "pushNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "resetNumbers",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "idx",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "setNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"getNumber(uint256)": {
+					"details": "Jika idx di luar rentang, akan revert otomatis (array access)"
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"deleteNumber(uint256)": {
+					"notice": "Menghapus elemen di index `idx` (mengatur ke default 0)"
+				},
+				"getNumber(uint256)": {
+					"notice": "Mengembalikan elemen array di index `idx`"
+				},
+				"lengthNumbers()": {
+					"notice": "Mengembalikan panjang array `numbers`"
+				},
+				"popNumber()": {
+					"notice": "Menghapus elemen terakhir dari array"
+				},
+				"pushNumber(uint256)": {
+					"notice": "Menambah angka _num ke akhir array"
+				},
+				"resetNumbers()": {
+					"notice": "Menghapus seluruh array (reset)"
+				},
+				"setNumber(uint256,uint256)": {
+					"notice": "Mengganti nilai di index `idx` dengan `_num`"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"BASE-LEARN/ArraysExercise.sol": "ArraysExercise"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"BASE-LEARN/ArraysExercise.sol": {
+			"keccak256": "0xa1fcf449b0b1708cf70f0a77663572aa1c5c62a16af92b6ff5a5ca26e22546d5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1fe4a37a8023ea85feeb40d5bb2537053d9876046526280ecf99a1cf47036faf",
+				"dweb:/ipfs/QmTELuX6GSAf6vdazbUaufvUPnpQNdF37rY4cfrP8XEHEF"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "whoAmI",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"BASE-LEARN/Inheritance.sol": "ContractB"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"BASE-LEARN/Inheritance.sol": {
+			"keccak256": "0x6b3527acf1e04c53ed2524eda81826834b1477cc394495dec612e77d29ed9612",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://48c11b276e3f3b12aeb413a3f8b4ecb3a447f5eedb2e0ff89003789c35f4ac99",
+				"dweb:/ipfs/QmQd92nQUJuVAeAaXJAMhnaeAgooQCH9fACHs2kPGaGrG6"
+			]
+		}
+	},
+	"version": 1
+}

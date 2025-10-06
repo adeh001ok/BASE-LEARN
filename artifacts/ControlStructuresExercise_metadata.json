@@ -1,0 +1,126 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "time",
+						"type": "uint256"
+					}
+				],
+				"name": "AfterHours",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "AtLunch",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "number",
+						"type": "int256"
+					}
+				],
+				"name": "categorize",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_time",
+						"type": "uint256"
+					}
+				],
+				"name": "doNotDisturb",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
+					}
+				],
+				"name": "fizzBuzz",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"categorize(int256)": {
+					"notice": "Mengategorikan angka: negatif, nol, atau positif"
+				},
+				"fizzBuzz(uint256)": {
+					"notice": "FizzBuzz versi Base Docs: - kelipatan 3 & 5 -> \"FizzBuzz\" - kelipatan 3 -> \"Fizz\" - kelipatan 5 -> \"Buzz\" - selain itu -> \"Splat\""
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"BASE-LEARN/ControlStructures.sol": "ControlStructuresExercise"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"BASE-LEARN/ControlStructures.sol": {
+			"keccak256": "0x9acf24f7625b6e1b966538680fadac08b9f2609b92df18dc634856d6e17b89c2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fe9f64175f1e078fc0f9959cf00b40728e8561f30d94ead12b41e38c4d5c5553",
+				"dweb:/ipfs/QmNrTdHxQqcZn3eRzLaDvxjjN8G2pB5uw5TiGzDxGcShAR"
+			]
+		}
+	},
+	"version": 1
+}
